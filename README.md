@@ -76,7 +76,7 @@ bash -c "
 
 Other sections function as getting best configs from ray tune, rerun the best configs and save all results of datasets/models to a ```.csv``` file.
 
-<img align="left" src=media/metrics_plot_locality.png width=200><img align="left" src=media/bar_SAR.png width=190>Results from Local-attn and Vanilla settings (left figure) show constant improvement of AR over AE. Results from the modularized common design space show that the Local-attn setting induces the lowest improvement of AR over AE. This is due to the already existed sparse local-inductive bias injected in Local-attn-AE, benefitting the empirical performance.
+<img align="left" src=media/results_visual_multi.png width=400>Results from Local-attn and Vanilla settings (left figure) show constant improvement of AR over AE. Results from the modularized common design space show that the Local-attn setting induces the lowest improvement of AR over AE. This is due to the already existed sparse local-inductive bias injected in Local-attn-AE, benefitting the empirical performance.
 
 ## Run experiments of AE/AR comparison with HuggingFace models (Section 5 in paper)
 Nacigate to ```./ModSAR/src``` and run
