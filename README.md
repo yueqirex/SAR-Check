@@ -30,7 +30,7 @@ Through our two selected analytical metrics (see detailed explanations in paper 
 
 <img src=attn_sv_visual.png width=800>
 
-By plotting out the singular values (above4 right figure) from the hard-thresholded SVD-approximation, we observed that the AR attention matrix holds a relatively greater number of dominant singular values, revealing more data variance learned in the AR attention matrix.
+By plotting out the singular values (above right figure) from the hard-thresholded SVD-approximation, we observed that the AR attention matrix holds a relatively greater number of dominant singular values, revealing more data variance learned in the AR attention matrix.
 
 ## Run experiments of AE/AR comparison in modularized common design space (Section 5 in paper)
 Nacigate to ```./ModSAR/src``` and run
