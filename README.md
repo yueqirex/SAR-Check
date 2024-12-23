@@ -90,3 +90,14 @@ to derive the tuning results of AE/AR comparison with huggingface models (Table 
 The below snapshot shows the empirical results derived from the modularized common design space and the HuggingFace plug-in using ASHA adaptive tuning.
 
 <img src=media/run_results.png width=1000>
+
+## Citation
+Please consider citing the following paper if you use our methods in your research:
+```bib
+@inproceedings{wang2025your,
+  title={Your Causal Self-Attentive Recommender Hosts a Lonely Neighborhood},
+  author={Wang, Yueqi and He, Zhankui and Yue, Zhenrui and McAuley, Julian and Wang, Dong},
+  booktitle={Proceedings of the 18th ACM International Conference on Web Search and Data Mining},
+  year={2025}
+}
+```
