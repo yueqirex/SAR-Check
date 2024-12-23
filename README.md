@@ -28,9 +28,9 @@ In the first row of the figure below, we show from left to right Vanilla-AE, Loc
 
 Through our two selected analytical metrics (see detailed explanations in paper section 3 and 4), we observed from the below left figure that the Auto-regressive (AR) attention shows sparse local inductive bias than Auto-encoding attention (AE) and requires higher rank to retain its original pattern (see second row of the below figure), implying more data dynamics AR attention is capable of storing.
 
-<img align="left" src=media/attn_visual.png width=500>
+<img src=media/attn_visual.png width=480><img src=media/svd_bert4rec_Beauty_user0.png width=190><img src=media/svd_bert4rec_ml-1m_user3.png width=190>
 
-<img align="left" src=media/svd_bert4rec_Beauty_user0.png width=220><img align="left" src=media/svd_bert4rec_ml-1m_user3.png width=220> By plotting out the singular values (below right figure) from the hard-thresholded SVD-approximation, we observed that the AR attention matrix holds a relatively greater number of dominant singular values, revealing more data variance learned in the AR attention matrix.
+By plotting out the singular values (below right figure) from the hard-thresholded SVD-approximation, we observed that the AR attention matrix holds a relatively greater number of dominant singular values, revealing more data variance learned in the AR attention matrix.
 
 ## Run experiments of AE/AR comparison in modularized common design space (Section 5 in paper)
 Nacigate to ```./ModSAR/src``` and run
