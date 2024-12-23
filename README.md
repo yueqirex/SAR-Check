@@ -31,9 +31,7 @@ Through our two selected analytical metrics (see detailed explanations in paper 
 <img align="left" src=media/attn_visual.png width=500>
 <!-- <img align="right" src="media/scope.png" width=360> -->
 
-By plotting out the singular values (below right figure) from the hard-thresholded SVD-approximation, we observed that the AR attention matrix holds a relatively greater number of dominant singular values, revealing more data variance learned in the AR attention matrix.
-
-<img src=media/svd_bert4rec_Beauty_user0.png width=220><img src=media/svd_bert4rec_ml-1m_user3.png width=220>
+<img src=media/svd_bert4rec_Beauty_user0.png width=220><img src=media/svd_bert4rec_ml-1m_user3.png width=220> By plotting out the singular values (below right figure) from the hard-thresholded SVD-approximation, we observed that the AR attention matrix holds a relatively greater number of dominant singular values, revealing more data variance learned in the AR attention matrix.
 
 ## Run experiments of AE/AR comparison in modularized common design space (Section 5 in paper)
 Nacigate to ```./ModSAR/src``` and run
@@ -79,7 +77,7 @@ bash -c "
 
 Other sections function as getting best configs from ray tune, rerun the best configs and save all results of datasets/models to a ```.csv``` file.
 
-<img align="left" src=media/metrics_plot_locality.png width=200><img align="left" src=media/bar_SAR.png width=190> Results from Local-attn and Vanilla settings (left figure) show constant improvement of AR over AE. Results from the modularized common design space show that the Local-attn setting induces the lowest improvement of AR over AE. This is due to the already existed sparse local-inductive bias injected in Local-attn-AE as using a window-based constraint to emphasize neighborhood items, benefitting the empirical performance.
+<img align="left" src=media/metrics_plot_locality.png width=200><img align="left" src=media/bar_SAR.png width=190> Results from Local-attn and Vanilla settings (left figure) show constant improvement of AR over AE. Results from the modularized common design space show that the Local-attn setting induces the lowest improvement of AR over AE. This is due to the already existed sparse local-inductive bias injected in Local-attn-AE, benefitting the empirical performance.
 
 ## Run experiments of AE/AR comparison with HuggingFace models (Section 5 in paper)
 Nacigate to ```./ModSAR/src``` and run
