@@ -2,7 +2,7 @@
 
 [WSDM'25]: **Your Causal Self-Attentive Recommender Hosts a Lonely Neighborhoods [[Paper](https://arxiv.org/pdf/2406.02048)][[Code](https://github.com/yueqirex/Self-Attention-Direction-Check)]**.
 
-PyTorch-Lightning and Ray-Tune implemented AE-AR comparison for self-attentive sequential recommendation.
+PyTorch-Lightning and Ray-Tune implemented AE-AR comparison for self-attentive sequential recommendation. Below is our pipeline named **Mo**dularized **D**esign Space for **S**elf-**A**ttentive **R**ecommender (**ModSAR**) for running major empirical experiments.
 
 <img src=media/ModSAR_v3.png width=700>
 
